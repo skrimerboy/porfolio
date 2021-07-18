@@ -158,3 +158,9 @@ transform: translateX(-7px);}
     font-size: 1.3rem;
     line-height: 1.2;
 }
+.bottom_right{
+  display: flex;
+}
+.rigtt_bottom{
+  display: flex;
+}
