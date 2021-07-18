@@ -118,18 +118,43 @@ transform: translateX(-7px);}
   line-height: 1.3;
 }
 .right{
-  padding: 1.2rem 3rem;
+  padding: 1.2rem 1rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
+  position: relative;
+  text-align: left;
 
 }
 .portfolio{
   width: 20rem;
   border-radius: 15px;
+
 }
 .portfolio:hover{
   background-color: 30% #c4c4c4
 
+}
+.bottom_black{
+  position: absolute;
+    bottom: 2.2rem;
+    left: 2.4rem;
+    color: #333;
+    font-size: bold;
+    font-size: 1.3rem;
+    line-height: 1.2;
+}
+.portfolio2{
+  width: 40rem;
+  border-radius:15px;
+}
+.bottom_white{
+  position: absolute;
+    bottom: 2.2rem;
+    left: 2.4rem;
+    color: white;
+    font-size: bold;
+    font-size: 1.3rem;
+    line-height: 1.2;
 }
